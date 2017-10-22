@@ -3,7 +3,7 @@ Javascript function to truncate html-text and closing open tags. Short and sweet
 
 Usage:
 ```javascript
-  cut_html("<p><b>html-text seems hard to be truncate</b></p>",26);
+  cut_html("<p><b>html-text seems hard to be truncated</b></p>",26);
   
   // ..and you'll get:
   
