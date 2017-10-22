@@ -7,7 +7,7 @@ Usage:
   
   // ..and you'll get:
   
-  "<p><b>html-text seems hard...<p/><b>"
+  "<p><b>html-text seems hard...<b><p/>"
 ```
 
 ToDO:
