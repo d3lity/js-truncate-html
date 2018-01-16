@@ -9,7 +9,7 @@ function cut_html($txt,$n){
 	// capture open tags
 	$f=preg_match_all("/<((?!li|hr|img|br|area|base|col|command|embed|input|keygen|link|meta|head|param|source|track|wbr).*?)>/",$tx,$ar);//,PREG_SET_ORDER);
 	// close tags
-	if ($f) $t=$t."</".implode("></",array_reverse($ar[1])).">"."&hellip;";
+	if ($f) $t=$t."&hellip;"."</".implode("></",array_reverse($ar[1])).">";
 	else $t=$t."&hellip;";
 	return $t;
 }
