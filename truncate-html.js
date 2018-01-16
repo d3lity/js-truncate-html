@@ -6,7 +6,7 @@ function cut_html(txt,n){
   // capture open tags
   var ar=tx.match(/<((?!li|hr|img|br|area|base|col|command|embed|input|keygen|link|meta|head|param|source|track|wbr).*?)>/g);
   // close tags
-  if (ar) t=t+ar.reverse().join("").replace(/</g,"<\/")+"&hellip;";
+  if (ar) t=t+"&hellip;"+ar.reverse().join("").replace(/</g,"<\/");
 	else t=txt;
   return t;
 }
